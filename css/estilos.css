@@ -220,7 +220,7 @@ h2{
 .text-titulo .titulo{
     text-align: center;
     font-family: sans-serif;
-    color: var(--color-letra2);
+    color: var(--color-blanco);
     padding:10px;
 }
 .mascota{
@@ -235,6 +235,9 @@ h2{
     position: relative;
 	z-index: 1;
     border: 5px solid var(--color-primario);
+}
+#cabecera h2 span{
+    color: var(--color-primario);
 }
 /*botones*/
 .banner_content .botones {
